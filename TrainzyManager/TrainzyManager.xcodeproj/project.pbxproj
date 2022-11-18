@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6130FC0728BD5E5200C88F60 /* TrainzyManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6130FC0628BD5E5200C88F60 /* TrainzyManagerApp.swift */; };
+		6130FC0928BD5E5200C88F60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6130FC0828BD5E5200C88F60 /* ContentView.swift */; };
+		6130FC0B28BD5E5400C88F60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6130FC0A28BD5E5400C88F60 /* Assets.xcassets */; };
+		6130FC0E28BD5E5400C88F60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6130FC0D28BD5E5400C88F60 /* Preview Assets.xcassets */; };
+		6130FC1828BD5E5400C88F60 /* TrainzyManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6130FC1728BD5E5400C88F60 /* TrainzyManagerTests.swift */; };
+		6130FC2228BD5E5400C88F60 /* TrainzyManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6130FC2128BD5E5400C88F60 /* TrainzyManagerUITests.swift */; };
+		6130FC2428BD5E5400C88F60 /* TrainzyManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6130FC2328BD5E5400C88F60 /* TrainzyManagerUITestsLaunchTests.swift */; };
+		6130FC3128BD953400C88F60 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6130FC3028BD953400C88F60 /* API.swift */; };
+		61590DC628BF01D700B3BAF6 /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61590DC528BF01D700B3BAF6 /* AddWorkoutView.swift */; };
+		61590DC828BF073500B3BAF6 /* WorkoutExerciseInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61590DC728BF073500B3BAF6 /* WorkoutExerciseInformationView.swift */; };
+		61590DCA28BFD53600B3BAF6 /* AddExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61590DC928BFD53500B3BAF6 /* AddExerciseView.swift */; };
+		619F679B28C462160048CA6C /* WorkoutOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F679A28C462160048CA6C /* WorkoutOverviewView.swift */; };
+		619F679D28C588A90048CA6C /* EditWorkoutExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619F679C28C588A80048CA6C /* EditWorkoutExerciseView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6130FC1428BD5E5400C88F60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6130FBFB28BD5E5200C88F60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6130FC0228BD5E5200C88F60;
+			remoteInfo = TrainzyManager;
+		};
+		6130FC1E28BD5E5400C88F60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6130FBFB28BD5E5200C88F60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6130FC0228BD5E5200C88F60;
+			remoteInfo = TrainzyManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6130FC0328BD5E5200C88F60 /* Trainzy Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trainzy Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6130FC0628BD5E5200C88F60 /* TrainzyManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainzyManagerApp.swift; sourceTree = "<group>"; };
+		6130FC0828BD5E5200C88F60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6130FC0A28BD5E5400C88F60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6130FC0D28BD5E5400C88F60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6130FC1328BD5E5400C88F60 /* TrainzyManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainzyManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6130FC1728BD5E5400C88F60 /* TrainzyManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainzyManagerTests.swift; sourceTree = "<group>"; };
+		6130FC1D28BD5E5400C88F60 /* TrainzyManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainzyManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6130FC2128BD5E5400C88F60 /* TrainzyManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainzyManagerUITests.swift; sourceTree = "<group>"; };
+		6130FC2328BD5E5400C88F60 /* TrainzyManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainzyManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6130FC3028BD953400C88F60 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = API.swift; path = "../../Trainzy/Trainzy WatchKit Extension/API.swift"; sourceTree = "<group>"; };
+		61590DC528BF01D700B3BAF6 /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
+		61590DC728BF073500B3BAF6 /* WorkoutExerciseInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutExerciseInformationView.swift; sourceTree = "<group>"; };
+		61590DC928BFD53500B3BAF6 /* AddExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseView.swift; sourceTree = "<group>"; };
+		619F679A28C462160048CA6C /* WorkoutOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutOverviewView.swift; sourceTree = "<group>"; };
+		619F679C28C588A80048CA6C /* EditWorkoutExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWorkoutExerciseView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6130FC0028BD5E5200C88F60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6130FC1028BD5E5400C88F60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6130FC1A28BD5E5400C88F60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6130FBFA28BD5E5200C88F60 = {
+			isa = PBXGroup;
+			children = (
+				6130FC0528BD5E5200C88F60 /* TrainzyManager */,
+				6130FC1628BD5E5400C88F60 /* TrainzyManagerTests */,
+				6130FC2028BD5E5400C88F60 /* TrainzyManagerUITests */,
+				6130FC0428BD5E5200C88F60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6130FC0428BD5E5200C88F60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6130FC0328BD5E5200C88F60 /* Trainzy Manager.app */,
+				6130FC1328BD5E5400C88F60 /* TrainzyManagerTests.xctest */,
+				6130FC1D28BD5E5400C88F60 /* TrainzyManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6130FC0528BD5E5200C88F60 /* TrainzyManager */ = {
+			isa = PBXGroup;
+			children = (
+				6130FC0628BD5E5200C88F60 /* TrainzyManagerApp.swift */,
+				6130FC0828BD5E5200C88F60 /* ContentView.swift */,
+				61590DC528BF01D700B3BAF6 /* AddWorkoutView.swift */,
+				61590DC928BFD53500B3BAF6 /* AddExerciseView.swift */,
+				619F679C28C588A80048CA6C /* EditWorkoutExerciseView.swift */,
+				619F679A28C462160048CA6C /* WorkoutOverviewView.swift */,
+				61590DC728BF073500B3BAF6 /* WorkoutExerciseInformationView.swift */,
+				6130FC3028BD953400C88F60 /* API.swift */,
+				6130FC0A28BD5E5400C88F60 /* Assets.xcassets */,
+				6130FC0C28BD5E5400C88F60 /* Preview Content */,
+			);
+			path = TrainzyManager;
+			sourceTree = "<group>";
+		};
+		6130FC0C28BD5E5400C88F60 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6130FC0D28BD5E5400C88F60 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6130FC1628BD5E5400C88F60 /* TrainzyManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6130FC1728BD5E5400C88F60 /* TrainzyManagerTests.swift */,
+			);
+			path = TrainzyManagerTests;
+			sourceTree = "<group>";
+		};
+		6130FC2028BD5E5400C88F60 /* TrainzyManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6130FC2128BD5E5400C88F60 /* TrainzyManagerUITests.swift */,
+				6130FC2328BD5E5400C88F60 /* TrainzyManagerUITestsLaunchTests.swift */,
+			);
+			path = TrainzyManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6130FC0228BD5E5200C88F60 /* TrainzyManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6130FC2728BD5E5400C88F60 /* Build configuration list for PBXNativeTarget "TrainzyManager" */;
+			buildPhases = (
+				6130FBFF28BD5E5200C88F60 /* Sources */,
+				6130FC0028BD5E5200C88F60 /* Frameworks */,
+				6130FC0128BD5E5200C88F60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrainzyManager;
+			productName = TrainzyManager;
+			productReference = 6130FC0328BD5E5200C88F60 /* Trainzy Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6130FC1228BD5E5400C88F60 /* TrainzyManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6130FC2A28BD5E5400C88F60 /* Build configuration list for PBXNativeTarget "TrainzyManagerTests" */;
+			buildPhases = (
+				6130FC0F28BD5E5400C88F60 /* Sources */,
+				6130FC1028BD5E5400C88F60 /* Frameworks */,
+				6130FC1128BD5E5400C88F60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6130FC1528BD5E5400C88F60 /* PBXTargetDependency */,
+			);
+			name = TrainzyManagerTests;
+			productName = TrainzyManagerTests;
+			productReference = 6130FC1328BD5E5400C88F60 /* TrainzyManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6130FC1C28BD5E5400C88F60 /* TrainzyManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6130FC2D28BD5E5400C88F60 /* Build configuration list for PBXNativeTarget "TrainzyManagerUITests" */;
+			buildPhases = (
+				6130FC1928BD5E5400C88F60 /* Sources */,
+				6130FC1A28BD5E5400C88F60 /* Frameworks */,
+				6130FC1B28BD5E5400C88F60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6130FC1F28BD5E5400C88F60 /* PBXTargetDependency */,
+			);
+			name = TrainzyManagerUITests;
+			productName = TrainzyManagerUITests;
+			productReference = 6130FC1D28BD5E5400C88F60 /* TrainzyManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6130FBFB28BD5E5200C88F60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6130FC0228BD5E5200C88F60 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6130FC1228BD5E5400C88F60 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6130FC0228BD5E5200C88F60;
+					};
+					6130FC1C28BD5E5400C88F60 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6130FC0228BD5E5200C88F60;
+					};
+				};
+			};
+			buildConfigurationList = 6130FBFE28BD5E5200C88F60 /* Build configuration list for PBXProject "TrainzyManager" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6130FBFA28BD5E5200C88F60;
+			productRefGroup = 6130FC0428BD5E5200C88F60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6130FC0228BD5E5200C88F60 /* TrainzyManager */,
+				6130FC1228BD5E5400C88F60 /* TrainzyManagerTests */,
+				6130FC1C28BD5E5400C88F60 /* TrainzyManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6130FC0128BD5E5200C88F60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6130FC0E28BD5E5400C88F60 /* Preview Assets.xcassets in Resources */,
+				6130FC0B28BD5E5400C88F60 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6130FC1128BD5E5400C88F60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6130FC1B28BD5E5400C88F60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6130FBFF28BD5E5200C88F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61590DC828BF073500B3BAF6 /* WorkoutExerciseInformationView.swift in Sources */,
+				6130FC0928BD5E5200C88F60 /* ContentView.swift in Sources */,
+				6130FC3128BD953400C88F60 /* API.swift in Sources */,
+				619F679B28C462160048CA6C /* WorkoutOverviewView.swift in Sources */,
+				619F679D28C588A90048CA6C /* EditWorkoutExerciseView.swift in Sources */,
+				61590DC628BF01D700B3BAF6 /* AddWorkoutView.swift in Sources */,
+				61590DCA28BFD53600B3BAF6 /* AddExerciseView.swift in Sources */,
+				6130FC0728BD5E5200C88F60 /* TrainzyManagerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6130FC0F28BD5E5400C88F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6130FC1828BD5E5400C88F60 /* TrainzyManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6130FC1928BD5E5400C88F60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6130FC2428BD5E5400C88F60 /* TrainzyManagerUITestsLaunchTests.swift in Sources */,
+				6130FC2228BD5E5400C88F60 /* TrainzyManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6130FC1528BD5E5400C88F60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6130FC0228BD5E5200C88F60 /* TrainzyManager */;
+			targetProxy = 6130FC1428BD5E5400C88F60 /* PBXContainerItemProxy */;
+		};
+		6130FC1F28BD5E5400C88F60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6130FC0228BD5E5200C88F60 /* TrainzyManager */;
+			targetProxy = 6130FC1E28BD5E5400C88F60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6130FC2528BD5E5400C88F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6130FC2628BD5E5400C88F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6130FC2828BD5E5400C88F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrainzyManager/Preview Content\"";
+				DEVELOPMENT_TEAM = WH78272CZY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FelixDallaire.TrainzyManager;
+				PRODUCT_NAME = "Trainzy Manager";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6130FC2928BD5E5400C88F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrainzyManager/Preview Content\"";
+				DEVELOPMENT_TEAM = WH78272CZY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FelixDallaire.TrainzyManager;
+				PRODUCT_NAME = "Trainzy Manager";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6130FC2B28BD5E5400C88F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH78272CZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FelixDallaire.TrainzyManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainzyManager.app/TrainzyManager";
+			};
+			name = Debug;
+		};
+		6130FC2C28BD5E5400C88F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH78272CZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FelixDallaire.TrainzyManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainzyManager.app/TrainzyManager";
+			};
+			name = Release;
+		};
+		6130FC2E28BD5E5400C88F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH78272CZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FelixDallaire.TrainzyManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrainzyManager;
+			};
+			name = Debug;
+		};
+		6130FC2F28BD5E5400C88F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH78272CZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FelixDallaire.TrainzyManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrainzyManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6130FBFE28BD5E5200C88F60 /* Build configuration list for PBXProject "TrainzyManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6130FC2528BD5E5400C88F60 /* Debug */,
+				6130FC2628BD5E5400C88F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6130FC2728BD5E5400C88F60 /* Build configuration list for PBXNativeTarget "TrainzyManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6130FC2828BD5E5400C88F60 /* Debug */,
+				6130FC2928BD5E5400C88F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6130FC2A28BD5E5400C88F60 /* Build configuration list for PBXNativeTarget "TrainzyManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6130FC2B28BD5E5400C88F60 /* Debug */,
+				6130FC2C28BD5E5400C88F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6130FC2D28BD5E5400C88F60 /* Build configuration list for PBXNativeTarget "TrainzyManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6130FC2E28BD5E5400C88F60 /* Debug */,
+				6130FC2F28BD5E5400C88F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6130FBFB28BD5E5200C88F60 /* Project object */;
+}

@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6176967F28B6C0380047FB30 /* EditWorkoutExerciseWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176967E28B6C0380047FB30 /* EditWorkoutExerciseWeightView.swift */; };
+		6176968128B7CC380047FB30 /* WorkoutOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6176968028B7CC380047FB30 /* WorkoutOverviewView.swift */; };
+		6192C5BF28B95A8C00D52E7C /* WorkoutExerciseInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6192C5BE28B95A8C00D52E7C /* WorkoutExerciseInformationView.swift */; };
+		61952E7C28BD5A2200475887 /* WorkoutExerciseTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61952E7B28BD5A2200475887 /* WorkoutExerciseTimerView.swift */; };
+		6198E8E228B2914500A379E0 /* Trainzy.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6198E8E128B2914500A379E0 /* Trainzy.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6198E8E728B2914700A379E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6198E8E628B2914700A379E0 /* Assets.xcassets */; };
+		6198E8ED28B2914800A379E0 /* Trainzy WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6198E8EC28B2914800A379E0 /* Trainzy WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6198E8F228B2914800A379E0 /* TrainzyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198E8F128B2914800A379E0 /* TrainzyApp.swift */; };
+		6198E8F428B2914800A379E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198E8F328B2914800A379E0 /* ContentView.swift */; };
+		6198E8F628B2914800A379E0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198E8F528B2914800A379E0 /* NotificationController.swift */; };
+		6198E8F828B2914800A379E0 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198E8F728B2914800A379E0 /* NotificationView.swift */; };
+		6198E8FA28B2914800A379E0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198E8F928B2914800A379E0 /* ComplicationController.swift */; };
+		6198E8FC28B2914900A379E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6198E8FB28B2914900A379E0 /* Assets.xcassets */; };
+		6198E8FF28B2914900A379E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6198E8FE28B2914900A379E0 /* Preview Assets.xcassets */; };
+		6198E90B28B2914900A379E0 /* TrainzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198E90A28B2914900A379E0 /* TrainzyTests.swift */; };
+		6198E91528B2914900A379E0 /* TrainzyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198E91428B2914900A379E0 /* TrainzyUITests.swift */; };
+		6198E91728B2914900A379E0 /* TrainzyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198E91628B2914900A379E0 /* TrainzyUITestsLaunchTests.swift */; };
+		6198E92C28B2CDC600A379E0 /* WorkoutManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198E92B28B2CDC600A379E0 /* WorkoutManagerView.swift */; };
+		6198E92E28B2F1E600A379E0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198E92D28B2F1E600A379E0 /* API.swift */; };
+		6198E93028B327F400A379E0 /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198E92F28B327F400A379E0 /* AddWorkoutView.swift */; };
+		6198E93228B3E7BE00A379E0 /* AddWorkoutExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6198E93128B3E7BE00A379E0 /* AddWorkoutExerciseView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6198E8E328B2914500A379E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6198E8D728B2914500A379E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6198E8E028B2914500A379E0;
+			remoteInfo = "Trainzy WatchKit App";
+		};
+		6198E8EE28B2914800A379E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6198E8D728B2914500A379E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6198E8EB28B2914800A379E0;
+			remoteInfo = "Trainzy WatchKit Extension";
+		};
+		6198E90728B2914900A379E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6198E8D728B2914500A379E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6198E8EB28B2914800A379E0;
+			remoteInfo = "Trainzy WatchKit Extension";
+		};
+		6198E91128B2914900A379E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6198E8D728B2914500A379E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6198E8E028B2914500A379E0;
+			remoteInfo = "Trainzy WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6198E91D28B2914900A379E0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6198E8ED28B2914800A379E0 /* Trainzy WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6198E92128B2914900A379E0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6198E8E228B2914500A379E0 /* Trainzy.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6176967E28B6C0380047FB30 /* EditWorkoutExerciseWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWorkoutExerciseWeightView.swift; sourceTree = "<group>"; };
+		6176968028B7CC380047FB30 /* WorkoutOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutOverviewView.swift; sourceTree = "<group>"; };
+		6192C5BE28B95A8C00D52E7C /* WorkoutExerciseInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutExerciseInformationView.swift; sourceTree = "<group>"; };
+		61952E7B28BD5A2200475887 /* WorkoutExerciseTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutExerciseTimerView.swift; sourceTree = "<group>"; };
+		6198E8DD28B2914500A379E0 /* Trainzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trainzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6198E8E128B2914500A379E0 /* Trainzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trainzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6198E8E628B2914700A379E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6198E8EC28B2914800A379E0 /* Trainzy WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Trainzy WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6198E8F128B2914800A379E0 /* TrainzyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainzyApp.swift; sourceTree = "<group>"; };
+		6198E8F328B2914800A379E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6198E8F528B2914800A379E0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		6198E8F728B2914800A379E0 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		6198E8F928B2914800A379E0 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		6198E8FB28B2914900A379E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6198E8FE28B2914900A379E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6198E90028B2914900A379E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6198E90128B2914900A379E0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		6198E90628B2914900A379E0 /* TrainzyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainzyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6198E90A28B2914900A379E0 /* TrainzyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainzyTests.swift; sourceTree = "<group>"; };
+		6198E91028B2914900A379E0 /* TrainzyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainzyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6198E91428B2914900A379E0 /* TrainzyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainzyUITests.swift; sourceTree = "<group>"; };
+		6198E91628B2914900A379E0 /* TrainzyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainzyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6198E92B28B2CDC600A379E0 /* WorkoutManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManagerView.swift; sourceTree = "<group>"; };
+		6198E92D28B2F1E600A379E0 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		6198E92F28B327F400A379E0 /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
+		6198E93128B3E7BE00A379E0 /* AddWorkoutExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutExerciseView.swift; sourceTree = "<group>"; };
+		6198E93328B4110200A379E0 /* Trainzy WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Trainzy WatchKit App.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6198E8E928B2914800A379E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6198E90328B2914900A379E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6198E90D28B2914900A379E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6198E8D628B2914500A379E0 = {
+			isa = PBXGroup;
+			children = (
+				6198E8E528B2914500A379E0 /* Trainzy WatchKit App */,
+				6198E8F028B2914800A379E0 /* Trainzy WatchKit Extension */,
+				6198E90928B2914900A379E0 /* TrainzyTests */,
+				6198E91328B2914900A379E0 /* TrainzyUITests */,
+				6198E8DE28B2914500A379E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6198E8DE28B2914500A379E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6198E8DD28B2914500A379E0 /* Trainzy.app */,
+				6198E8E128B2914500A379E0 /* Trainzy.app */,
+				6198E8EC28B2914800A379E0 /* Trainzy WatchKit Extension.appex */,
+				6198E90628B2914900A379E0 /* TrainzyTests.xctest */,
+				6198E91028B2914900A379E0 /* TrainzyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6198E8E528B2914500A379E0 /* Trainzy WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6198E93328B4110200A379E0 /* Trainzy WatchKit App.entitlements */,
+				6198E8E628B2914700A379E0 /* Assets.xcassets */,
+			);
+			path = "Trainzy WatchKit App";
+			sourceTree = "<group>";
+		};
+		6198E8F028B2914800A379E0 /* Trainzy WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6198E8F128B2914800A379E0 /* TrainzyApp.swift */,
+				6198E8F328B2914800A379E0 /* ContentView.swift */,
+				6176968028B7CC380047FB30 /* WorkoutOverviewView.swift */,
+				6176967E28B6C0380047FB30 /* EditWorkoutExerciseWeightView.swift */,
+				6198E92B28B2CDC600A379E0 /* WorkoutManagerView.swift */,
+				6192C5BE28B95A8C00D52E7C /* WorkoutExerciseInformationView.swift */,
+				6198E92F28B327F400A379E0 /* AddWorkoutView.swift */,
+				61952E7B28BD5A2200475887 /* WorkoutExerciseTimerView.swift */,
+				6198E93128B3E7BE00A379E0 /* AddWorkoutExerciseView.swift */,
+				6198E92D28B2F1E600A379E0 /* API.swift */,
+				6198E8F528B2914800A379E0 /* NotificationController.swift */,
+				6198E8F728B2914800A379E0 /* NotificationView.swift */,
+				6198E8F928B2914800A379E0 /* ComplicationController.swift */,
+				6198E8FB28B2914900A379E0 /* Assets.xcassets */,
+				6198E90028B2914900A379E0 /* Info.plist */,
+				6198E90128B2914900A379E0 /* PushNotificationPayload.apns */,
+				6198E8FD28B2914900A379E0 /* Preview Content */,
+			);
+			path = "Trainzy WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		6198E8FD28B2914900A379E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6198E8FE28B2914900A379E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6198E90928B2914900A379E0 /* TrainzyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6198E90A28B2914900A379E0 /* TrainzyTests.swift */,
+			);
+			path = TrainzyTests;
+			sourceTree = "<group>";
+		};
+		6198E91328B2914900A379E0 /* TrainzyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6198E91428B2914900A379E0 /* TrainzyUITests.swift */,
+				6198E91628B2914900A379E0 /* TrainzyUITestsLaunchTests.swift */,
+			);
+			path = TrainzyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6198E8DC28B2914500A379E0 /* Trainzy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6198E92228B2914900A379E0 /* Build configuration list for PBXNativeTarget "Trainzy" */;
+			buildPhases = (
+				6198E8DB28B2914500A379E0 /* Resources */,
+				6198E92128B2914900A379E0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6198E8E428B2914500A379E0 /* PBXTargetDependency */,
+			);
+			name = Trainzy;
+			productName = Trainzy;
+			productReference = 6198E8DD28B2914500A379E0 /* Trainzy.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		6198E8E028B2914500A379E0 /* Trainzy WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6198E91E28B2914900A379E0 /* Build configuration list for PBXNativeTarget "Trainzy WatchKit App" */;
+			buildPhases = (
+				6198E8DF28B2914500A379E0 /* Resources */,
+				6198E91D28B2914900A379E0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6198E8EF28B2914800A379E0 /* PBXTargetDependency */,
+			);
+			name = "Trainzy WatchKit App";
+			productName = "Trainzy WatchKit App";
+			productReference = 6198E8E128B2914500A379E0 /* Trainzy.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6198E8EB28B2914800A379E0 /* Trainzy WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6198E91A28B2914900A379E0 /* Build configuration list for PBXNativeTarget "Trainzy WatchKit Extension" */;
+			buildPhases = (
+				6198E8E828B2914800A379E0 /* Sources */,
+				6198E8E928B2914800A379E0 /* Frameworks */,
+				6198E8EA28B2914800A379E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trainzy WatchKit Extension";
+			productName = "Trainzy WatchKit Extension";
+			productReference = 6198E8EC28B2914800A379E0 /* Trainzy WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		6198E90528B2914900A379E0 /* TrainzyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6198E92528B2914900A379E0 /* Build configuration list for PBXNativeTarget "TrainzyTests" */;
+			buildPhases = (
+				6198E90228B2914900A379E0 /* Sources */,
+				6198E90328B2914900A379E0 /* Frameworks */,
+				6198E90428B2914900A379E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6198E90828B2914900A379E0 /* PBXTargetDependency */,
+			);
+			name = TrainzyTests;
+			productName = TrainzyTests;
+			productReference = 6198E90628B2914900A379E0 /* TrainzyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6198E90F28B2914900A379E0 /* TrainzyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6198E92828B2914900A379E0 /* Build configuration list for PBXNativeTarget "TrainzyUITests" */;
+			buildPhases = (
+				6198E90C28B2914900A379E0 /* Sources */,
+				6198E90D28B2914900A379E0 /* Frameworks */,
+				6198E90E28B2914900A379E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6198E91228B2914900A379E0 /* PBXTargetDependency */,
+			);
+			name = TrainzyUITests;
+			productName = TrainzyUITests;
+			productReference = 6198E91028B2914900A379E0 /* TrainzyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6198E8D728B2914500A379E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6198E8DC28B2914500A379E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6198E8E028B2914500A379E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6198E8EB28B2914800A379E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6198E90528B2914900A379E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6198E8EB28B2914800A379E0;
+					};
+					6198E90F28B2914900A379E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6198E8E028B2914500A379E0;
+					};
+				};
+			};
+			buildConfigurationList = 6198E8DA28B2914500A379E0 /* Build configuration list for PBXProject "Trainzy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6198E8D628B2914500A379E0;
+			productRefGroup = 6198E8DE28B2914500A379E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6198E8DC28B2914500A379E0 /* Trainzy */,
+				6198E8E028B2914500A379E0 /* Trainzy WatchKit App */,
+				6198E8EB28B2914800A379E0 /* Trainzy WatchKit Extension */,
+				6198E90528B2914900A379E0 /* TrainzyTests */,
+				6198E90F28B2914900A379E0 /* TrainzyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6198E8DB28B2914500A379E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6198E8DF28B2914500A379E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6198E8E728B2914700A379E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6198E8EA28B2914800A379E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6198E8FF28B2914900A379E0 /* Preview Assets.xcassets in Resources */,
+				6198E8FC28B2914900A379E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6198E90428B2914900A379E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6198E90E28B2914900A379E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6198E8E828B2914800A379E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6192C5BF28B95A8C00D52E7C /* WorkoutExerciseInformationView.swift in Sources */,
+				6176968128B7CC380047FB30 /* WorkoutOverviewView.swift in Sources */,
+				6198E8F628B2914800A379E0 /* NotificationController.swift in Sources */,
+				6198E93228B3E7BE00A379E0 /* AddWorkoutExerciseView.swift in Sources */,
+				6198E8F428B2914800A379E0 /* ContentView.swift in Sources */,
+				6198E8FA28B2914800A379E0 /* ComplicationController.swift in Sources */,
+				6198E8F228B2914800A379E0 /* TrainzyApp.swift in Sources */,
+				6176967F28B6C0380047FB30 /* EditWorkoutExerciseWeightView.swift in Sources */,
+				6198E92C28B2CDC600A379E0 /* WorkoutManagerView.swift in Sources */,
+				6198E8F828B2914800A379E0 /* NotificationView.swift in Sources */,
+				6198E93028B327F400A379E0 /* AddWorkoutView.swift in Sources */,
+				6198E92E28B2F1E600A379E0 /* API.swift in Sources */,
+				61952E7C28BD5A2200475887 /* WorkoutExerciseTimerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6198E90228B2914900A379E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6198E90B28B2914900A379E0 /* TrainzyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6198E90C28B2914900A379E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6198E91728B2914900A379E0 /* TrainzyUITestsLaunchTests.swift in Sources */,
+				6198E91528B2914900A379E0 /* TrainzyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6198E8E428B2914500A379E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6198E8E028B2914500A379E0 /* Trainzy WatchKit App */;
+			targetProxy = 6198E8E328B2914500A379E0 /* PBXContainerItemProxy */;
+		};
+		6198E8EF28B2914800A379E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6198E8EB28B2914800A379E0 /* Trainzy WatchKit Extension */;
+			targetProxy = 6198E8EE28B2914800A379E0 /* PBXContainerItemProxy */;
+		};
+		6198E90828B2914900A379E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6198E8EB28B2914800A379E0 /* Trainzy WatchKit Extension */;
+			targetProxy = 6198E90728B2914900A379E0 /* PBXContainerItemProxy */;
+		};
+		6198E91228B2914900A379E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6198E8E028B2914500A379E0 /* Trainzy WatchKit App */;
+			targetProxy = 6198E91128B2914900A379E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6198E91828B2914900A379E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6198E91928B2914900A379E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6198E91B28B2914900A379E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trainzy WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = LZ2Y54C626;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trainzy WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Trainzy WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Trainzy_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fotoko.Trainzy.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		6198E91C28B2914900A379E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trainzy WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = LZ2Y54C626;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trainzy WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Trainzy WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Trainzy_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fotoko.Trainzy.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		6198E91F28B2914900A379E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Trainzy WatchKit App/Trainzy WatchKit App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LZ2Y54C626;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Trainzy_WatchKit_Extension;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fotoko.Trainzy.watchkitapp;
+				PRODUCT_NAME = Trainzy;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		6198E92028B2914900A379E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Trainzy WatchKit App/Trainzy WatchKit App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LZ2Y54C626;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Trainzy_WatchKit_Extension;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fotoko.Trainzy.watchkitapp;
+				PRODUCT_NAME = Trainzy;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		6198E92328B2914900A379E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LZ2Y54C626;
+				ENABLE_PREVIEWS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fotoko.Trainzy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6198E92428B2914900A379E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LZ2Y54C626;
+				ENABLE_PREVIEWS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fotoko.Trainzy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6198E92628B2914900A379E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LZ2Y54C626;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FelixDallaire.TrainzyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trainzy WatchKit Extension.appex/Trainzy WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		6198E92728B2914900A379E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LZ2Y54C626;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FelixDallaire.TrainzyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trainzy WatchKit Extension.appex/Trainzy WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		6198E92928B2914900A379E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LZ2Y54C626;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FelixDallaire.TrainzyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Trainzy WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		6198E92A28B2914900A379E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LZ2Y54C626;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FelixDallaire.TrainzyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Trainzy WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6198E8DA28B2914500A379E0 /* Build configuration list for PBXProject "Trainzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6198E91828B2914900A379E0 /* Debug */,
+				6198E91928B2914900A379E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6198E91A28B2914900A379E0 /* Build configuration list for PBXNativeTarget "Trainzy WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6198E91B28B2914900A379E0 /* Debug */,
+				6198E91C28B2914900A379E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6198E91E28B2914900A379E0 /* Build configuration list for PBXNativeTarget "Trainzy WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6198E91F28B2914900A379E0 /* Debug */,
+				6198E92028B2914900A379E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6198E92228B2914900A379E0 /* Build configuration list for PBXNativeTarget "Trainzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6198E92328B2914900A379E0 /* Debug */,
+				6198E92428B2914900A379E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6198E92528B2914900A379E0 /* Build configuration list for PBXNativeTarget "TrainzyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6198E92628B2914900A379E0 /* Debug */,
+				6198E92728B2914900A379E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6198E92828B2914900A379E0 /* Build configuration list for PBXNativeTarget "TrainzyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6198E92928B2914900A379E0 /* Debug */,
+				6198E92A28B2914900A379E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6198E8D728B2914500A379E0 /* Project object */;
+}
